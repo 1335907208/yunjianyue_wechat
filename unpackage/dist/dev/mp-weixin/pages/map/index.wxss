@@ -1,0 +1,180 @@
+
+page{
+        height: 100%;
+}
+
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-map.data-v-a3704cdf {
+  height: 100%;
+  position: relative;
+}
+.page-map__location.data-v-a3704cdf {
+  width: 343px;
+  height: 106px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: blur(13.59px);
+          backdrop-filter: blur(13.59px);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+  display: flex;
+  align-items: center;
+}
+.page-map__location-icons.data-v-a3704cdf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+}
+.page-map__location-icons .line.data-v-a3704cdf {
+  height: 10px;
+  border-left: 1px dashed #ccc;
+  margin: 8px 0;
+}
+.page-map__location-inputs.data-v-a3704cdf {
+  width: 72%;
+}
+.page-map__location-inputs input.data-v-a3704cdf:first-child {
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  color: #6979f8;
+}
+.page-map__location-menus .yjy-icon-luxian.data-v-a3704cdf {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  background-color: #6979f8;
+  border-radius: 50%;
+  color: #fff;
+}
+.page-map__content.data-v-a3704cdf {
+  height: calc(100% - 38px);
+  position: relative;
+}
+.page-map__content-controls.data-v-a3704cdf {
+  position: absolute;
+  right: 20px;
+  bottom: 50px;
+}
+.page-map__content-controls .yjy-icon-a-dingwei2.data-v-a3704cdf {
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 24px;
+  text-align: center;
+  background-color: #6979f8;
+  border-radius: 16px;
+  color: #fff;
+}
+.page-map__content-controls-items.data-v-a3704cdf {
+  width: 100%;
+  box-sizing: border-box;
+  opacity: 1;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(13.59px);
+          backdrop-filter: blur(13.59px);
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8px;
+  position: relative;
+}
+.page-map__content-controls-items .yjy-icon.data-v-a3704cdf {
+  font-size: 44rpx;
+  color: #aaa;
+  border-radius: 25px;
+  margin-bottom: 8px;
+}
+.page-map__content-controls-items .active .yjy-icon.data-v-a3704cdf {
+  color: #fff;
+}
+.page-map__content-controls-items .active .yjy-icon-shoucang.data-v-a3704cdf {
+  color: #fecc66;
+}
+.page-map__content-controls-items > view.data-v-a3704cdf {
+  z-index: 2;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-map__content-controls-items .active-bg.data-v-a3704cdf {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #6979f8;
+  position: absolute;
+  transition: top 0.3s;
+  z-index: 1;
+}
+.page-map__content .callout-view.data-v-a3704cdf {
+  position: relative;
+}
+.page-map__content .callout-view__content.data-v-a3704cdf {
+  margin-bottom: 20px;
+  background-color: #6979f8;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-map__content .callout-view__content-title.data-v-a3704cdf {
+  width: 100%;
+  color: #fff;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.page-map__content .callout-view__content-title .detail.data-v-a3704cdf {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.page-map__content .callout-view__content-title .detail .uicon.data-v-a3704cdf {
+  font-size: 13px;
+  margin-left: 4px;
+}
+.page-map__content .callout-view__content-image.data-v-a3704cdf {
+  height: 100px;
+  width: 160px;
+}
+.page-map__content .callout-view .uicon-arrow-down-fill.data-v-a3704cdf {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #6979f8;
+}

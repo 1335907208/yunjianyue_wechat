@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/index",
+    "pages/hotel/index",
+    "pages/message/index",
+    "pages/mine/index",
+    "pages/webView"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/map/index"
+      },
+      {
+        "pagePath": "pages/hotel/index"
+      },
+      {
+        "pagePath": "pages/message/index"
+      },
+      {
+        "pagePath": "pages/mine/index"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "需要获取您当前所在位置，为您就近匹配路线"
+    }
+  },
+  "usingComponents": {}
+}

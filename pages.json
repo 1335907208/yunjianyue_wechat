@@ -1,0 +1,62 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+                "navigationStyle": "custom"
+			}
+		},
+        {
+        	"path": "pages/map/index",
+        	"style": {
+                "navigationStyle": "custom"
+        	}
+        },
+        {
+        	"path": "pages/hotel/index",
+        	"style": {
+        		"navigationBarTitleText": "uni-app"
+        	}
+        },
+        {
+        	"path": "pages/message/index",
+        	"style": {
+        		"navigationBarTitleText": "uni-app"
+        	}
+        },
+        {
+        	"path": "pages/mine/index",
+        	"style": {
+        		"navigationBarTitleText": "uni-app"
+        	}
+        },
+        {
+        	"path": "pages/webView",
+        	"style": {
+        		"navigationBarTitleText": "新闻资讯"
+        	}
+        }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+    "tabBar": {
+        "custom": true,
+    	"list": [{
+    		"pagePath": "pages/index/index"
+    	}, {
+    		"pagePath": "pages/map/index"
+    	}, {
+    		"pagePath": "pages/hotel/index"
+    	}, {
+    		"pagePath": "pages/message/index"
+    	}, {
+    		"pagePath": "pages/mine/index"
+    	}]
+    },
+    "usingComponents": {}
+}
